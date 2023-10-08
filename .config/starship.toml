@@ -1,0 +1,24 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+command_timeout = 750
+
+[aws]
+disabled = false
+
+[aws.region_aliases]
+us-east-2 = "use2"
+us-east-1 = "use1"
+us-west-2 = "usw2"
+
+[docker_context]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[git_status]
+disabled = true
+
+[battery]
+disabled = true

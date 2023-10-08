@@ -1,0 +1,244 @@
+{
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, ColumnLimit: 125 }",
+	"atomKeymap.promptV3Features": true,
+	"diffEditor.renderSideBySide": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 14,
+	"editor.inlineSuggest.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.quickSuggestions": {
+		"other": true,
+		"strings": true
+	},
+	"files.associations": {
+		"*.j2": "html",
+		"*.hcl": "terraform"
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"files.watcherExclude": {
+		"**/.direnv/**": true
+	},
+	"git.allowForcePush": true,
+	"git.confirmSync": false,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"python": true,
+		"jsonc": true,
+		"terraform": true
+	},
+	"gitlens.codeLens.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.hovers.enabled": false,
+	"gitlens.views.commits.pullRequests.enabled": false,
+	"gitlens.views.commits.showBranchComparison": false,
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"particle.disableWelcomeScreen": true,
+	"platformio-ide.disablePIOHomeStartup": true,
+	"platformio-ide.disableToolbar": true,
+	"python.formatting.blackArgs": [
+		"--line-length 120"
+	],
+	"python.formatting.provider": "black",
+	"python.languageServer": "Pylance",
+	"python.linting.flake8Args": [
+		"--max-line-length=125"
+	],
+	"python.linting.flake8Enabled": true,
+	"python.linting.pycodestyleArgs": [
+		"--max-line-length=120"
+	],
+	"python.linting.pylintArgs": [
+		"--enable=W0614",
+		"--disable=C0114,C0115,C0116",
+		"--max-line-length=120",
+		"--extension-pkg-whitelist=pydantic,wx"
+	],
+	"python.linting.pylintEnabled": false,
+	"python.testing.pytestEnabled": true,
+	"redhat.telemetry.enabled": false,
+	"remote.SSH.enableAgentForwarding": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.scrollback": 1000000,
+	"vs-kubernetes": {
+		"vscode-kubernetes.minikube-path.mac": "/Users/ashinn/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+		"vscode-kubernetes.helm-path.mac": "/Users/ashinn/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+	},
+	"workbench.editor.splitOnDragAndDrop": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook",
+		"git-rebase-todo": "gitlens.rebase"
+	},
+	"workbench.enableExperiments": false,
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 16,
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+	"[terraform]": {
+		"editor.tabSize": 2
+	},
+	"githubPullRequests.focusedMode": false,
+	"gitlens.views.commits.files.layout": "tree",
+	"gitlens.views.formats.commits.label": "${id} ${message}",
+	"Notes.notesLocation": "/Users/ashinn/Documents/VSCodeNotes",
+	"terminal.integrated.persistentSessionScrollback": 1000,
+	"window.restoreFullscreen": true,
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"githubPullRequests.createOnPublishBranch": "never",
+	"workbench.reduceMotion": "on",
+	"githubPullRequests.terminalLinksHandler": "github",
+	"editor.fontLigatures": false,
+	"gitlens.advanced.messages": {
+		"suppressCreatePullRequestPrompt": true,
+		"suppressRebaseSwitchToTextWarning": true
+	},
+	"git.branchPrefix": "ashinn/",
+	"git.branchRandomName.enable": true,
+	"git.branchRandomName.dictionary": [
+		"adjectives",
+		"colors",
+		"animals"
+	],
+	"git.branchProtection": [
+		"main",
+		"master",
+		"gov"
+	],
+	"git.autofetch": "all",
+	"git.fetchOnPull": true,
+	"git.followTagsWhenSync": true,
+	"git.pruneOnFetch": true,
+	"terminal.integrated.fontSize": 14,
+	"cSpell.userWords": [
+		"awsume",
+		"FIPS"
+	],
+	"cSpell.diagnosticLevel": "Hint",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.shellIntegration.enabled": false,
+	"githubPullRequests.pullBranch": "never",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"terraform.languageServer.terraform.path": "/usr/local/bin/terraform",
+	"editor.suggest.preview": true,
+	"atlascode.jira.enabled": true,
+	"atlascode.bitbucket.enabled": false,
+	"gitlens.rebaseEditor.ordering": "asc",
+	"editor.formatOnSaveMode": "modifications",
+	"peacock.favoriteColors": [
+		{
+			"name": "Angular Red",
+			"value": "#dd0531"
+		},
+		{
+			"name": "Azure Blue",
+			"value": "#007fff"
+		},
+		{
+			"name": "JavaScript Yellow",
+			"value": "#f9e64f"
+		},
+		{
+			"name": "Mandalorian Blue",
+			"value": "#1857a4"
+		},
+		{
+			"name": "Node Green",
+			"value": "#215732"
+		},
+		{
+			"name": "React Blue",
+			"value": "#61dafb"
+		},
+		{
+			"name": "Something Different",
+			"value": "#832561"
+		},
+		{
+			"name": "Svelte Orange",
+			"value": "#ff3d00"
+		},
+		{
+			"name": "Vue Green",
+			"value": "#42b883"
+		}
+	],
+	"git.ignoreRebaseWarning": true,
+	"timeline.pageOnScroll": true,
+	"git.timeline.showUncommitted": true,
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"yaml.customTags": [
+
+		"!secret scalar",
+		"!vault scalar"
+	],
+	"launch": {
+
+		"configurations": [],
+		"compounds": []
+	},
+	"ansible.validation.lint.enabled": false,
+	"githubIssues.queries": [
+		{
+			"label": "My Issues",
+			"query": "default"
+		},
+		{
+			"label": "Created Issues",
+			"query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+		},
+		{
+			"label": "Recent Issues",
+			"query": "state:open repo:${owner}/${repository} sort:updated-desc"
+		}
+	],
+	"githubPullRequests.queries": [
+
+		{
+			"label": "Waiting For My Review",
+			"query": "is:open review-requested:${user}"
+		},
+		{
+			"label": "Assigned To Me",
+			"query": "is:open assignee:${user}"
+		},
+		{
+			"label": "Created By Me",
+			"query": "is:open author:${user}"
+		}
+	],
+	"githubPullRequests.showPullRequestNumberInTree": true,
+	"circleci.hostUrl": "",
+	"editor.formatOnPaste": false,
+	"yaml.format.printWidth": 125,
+	"[ruby]": {
+		"editor.defaultFormatter": "Shopify.ruby-lsp",
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.semanticHighlighting.enabled": true
+	},
+	"editor.rulers": [
+		120
+	],
+	"explorer.confirmDelete": false,
+	"circleci.notifications.areActive": "no"
+}
